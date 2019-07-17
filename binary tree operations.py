@@ -27,7 +27,7 @@ class Node:
                     self.right.insert(data)
         else:
             self.data = data
-
+            
     def search(self, data):
         if data:
             if data==self.data:
